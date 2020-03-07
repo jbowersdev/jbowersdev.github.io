@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  background-color: white;
+}
+
+
+#box {
+  width: auto;
+  height: 15px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+
+/* Header information*/
+.header {
+background-image:url("images/header.jpg");
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/*Navigation information*/
+.nav {
+  background-color: lightgray;
+  color: white;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+
+.nav ul li:hover {
+  background-color: gray;
+
+}
+
+/*Body information*/
+.wrapper {
+}
+
+.banner {
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.keypoint {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
