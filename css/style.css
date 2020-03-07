@@ -14,7 +14,8 @@ body {
 
 /* Header information*/
 .header {
-background-image:url("images/header.jpg");
+
+background-image:url("https://unsplash.com/photos/qjnAnF0jIGk");
 }
 
 .header-text {
